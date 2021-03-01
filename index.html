@@ -9,38 +9,96 @@
     <style>
         main{
             display: inline-block;
-            width: 800px; 
-            margin-left: calc((100% - 800px) / 2);
+            width: 1000px; 
+            margin-left: calc((100% - 1000px) / 2);
+            color: #9E9E9E;
         }
         header{
             display: inline-block;
             width: 100%;
-            margin: 20px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            color: #9E9E9E;
+        }
+        nav{
+            width: 50%;
+            margin-top: 50px;
+            margin-right: 50px;
+            width: 400px;
+            float: right;
+        }
+        .button {
+                border: none;
+                color: white;
+                padding: 3px 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+        }
+        .sign {
+                color: #9E9E9E;
+                border: 2px solid #9E9E9E;
+                border-radius: 15px;
+                text-transform: uppercase;
+                font-size: 11px;
+        }
+        .logo{
+            margin-top: 10px;
+        }
+        .sadface{
+            margin-right: 10px;
         }
         section{
             display: inline-block;
             width: 100%;
+            color: #9E9E9E;
+        }
+        h1{
+            
+            float: left;
+            font-size: 70px; 
+            width: 450px;
+            margin-block-start: 0; 
+            margin-block-end: 0;
+        }
+        div{
+            
+            float: left;
+            font-size: 30px;
+            width: 450px;
+            
+            margin-block-start: 0; 
+            margin-block-end: 0;
+        }
+        p{
+            text-align: justify;
         }
     </style>
 </head>
 <body>
-    <main style="">
+    <main>
         <header>
-            <img src="logo.png" alt="logo">
-            <nav>
+            <img class="logo" src="logo.png" alt="logo" style="float: left;">
+            <nav style="float: right;">
                 <a href="#">Home</a>
                 <a href="#">Tracks</a>
                 <a href="#">Library</a>
                 <a href="#">Commutiny</a>
-                <a href="#">Contact</a>
+                <a class="button sign" href="#">Sign In</a>
             </nav>
         </header>
         <section>
-            <h1>404</h1>
             <div>
+            <h1>404</h1>
+            
                 The link is broken or the page has been moved.
             </div>
-            <img src="#" alt="sad face">
+            
+            <img class="sadface" src="sadface.png" alt="sad face" style="width: 530px; float: right;">
+            
         </section>
     </main>
 </body>
