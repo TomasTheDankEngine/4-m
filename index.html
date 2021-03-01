@@ -22,42 +22,28 @@
             color: #9E9E9E;
         }
         nav{
-            width: 50%;
-            margin-top: 50px;
-            margin-right: 50px;
-            width: 400px;
+            display: inline-block;
             float: right;
+            margin-top: 20px;
             color: #9E9E9E;
-        }
-        .button {
-                border: none;
-                color: white;
-                padding: 3px 10px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-        }
-        .sign {
-                color: #9E9E9E;
-                border: 2px solid #9E9E9E;
-                border-radius: 15px;
-                text-transform: uppercase;
-                font-size: 11px;
-        }
-        .logo{
-            margin-top: 10px;
-        }
-        .sadface{
-            margin-right: 10px;
         }
         section{
             display: inline-block;
             width: 100%;
             color: #9E9E9E;
             margin-top: 10px;
+        }
+        header > img{
+            display: inline-block;
+            float: left;
+            height: 70px;
+            margin-left: 10%;
+        }
+        section > img{
+            display: inline-block;
+            width: 45%;
+            float: left;
+            margin-left: 10%;
         }
         h1{
             
@@ -68,11 +54,11 @@
             margin-block-end: 0;
         }
         div{
-            
+            display: inline-block;
             float: left;
             font-size: 30px;
-            width: 450px;
-            margin-top: 200px;
+            width: 35%;
+            margin-left: 5%;
             
         }
         p{
@@ -83,13 +69,13 @@
 <body>
     <main>
         <header>
-            <img class="./logo.png" src="logo.png" alt="logo" style="float: left;">
+            <img src="logo.png" alt="logo">
             <nav style="float: right;">
                 <a href="#">Home</a>
                 <a href="#">Tracks</a>
                 <a href="#">Library</a>
                 <a href="#">Commutiny</a>
-                <a class="button sign" href="#">Sign In</a>
+                <a href="#">Sign In</a>
             </nav>
         </header>
         <section>
@@ -99,7 +85,7 @@
                 The link is broken or the page has been moved.
             </div>
             
-            <img class="sadface" src="./sadface.png" alt="sad face" style="width: 530px; float: right;">
+            <img src="./sadface.png" alt="sad face">
             
         </section>
     </main>
